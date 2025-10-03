@@ -1,0 +1,273 @@
+Итерация 0
+=======================================================================================
+После TimeCorrect
+AllModelTime: 3.07502
+CEC
+	ID: 1, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 3.07502, typeWorkers: -1
+FEC
+	ID: 3, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 5.89599, typeWorkers: -1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 1
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 0
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 3.07502
+CEC
+FEC
+	ID: 4, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 4.79746, typeWorkers: -1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 3, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 5.89599, typeWorkers: -1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+=======================================================================================
+Итерация 1
+=======================================================================================
+После TimeCorrect
+AllModelTime: 4.79746
+CEC
+	ID: 4, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 4.79746, typeWorkers: -1
+FEC
+	ID: 3, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 5.89599, typeWorkers: -1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 2
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 0
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 4.79746
+CEC
+FEC
+	ID: 3, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 5.89599, typeWorkers: -1
+	ID: 5, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 9.9771, typeWorkers: -1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+=======================================================================================
+Итерация 2
+=======================================================================================
+После TimeCorrect
+AllModelTime: 5.89599
+CEC
+	ID: 3, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 5.89599, typeWorkers: -1
+FEC
+	ID: 5, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 9.9771, typeWorkers: -1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 3
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 0
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 5.89599
+CEC
+FEC
+	ID: 6, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 8.62974, typeWorkers: -1
+	ID: 5, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 9.9771, typeWorkers: -1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+=======================================================================================
+Итерация 3
+=======================================================================================
+После TimeCorrect
+AllModelTime: 8.62974
+CEC
+	ID: 6, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 8.62974, typeWorkers: -1
+FEC
+	ID: 5, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 9.9771, typeWorkers: -1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 4
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 0
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 8.62974
+CEC
+FEC
+	ID: 5, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 9.9771, typeWorkers: -1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+=======================================================================================
+Итерация 4
+=======================================================================================
+После TimeCorrect
+AllModelTime: 9.9771
+CEC
+	ID: 5, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 9.9771, typeWorkers: -1
+FEC
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 5
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 0
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 9.9771
+CEC
+FEC
+	ID: 8, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 11.5787, typeWorkers: -1
+	ID: 5, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 12.2812, typeWorkers: 1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+=======================================================================================
+Итерация 5
+=======================================================================================
+После TimeCorrect
+AllModelTime: 11.5787
+CEC
+	ID: 8, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 11.5787, typeWorkers: -1
+FEC
+	ID: 5, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 12.2812, typeWorkers: 1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 6
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 0
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 11.5787
+CEC
+FEC
+	ID: 5, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 12.2812, typeWorkers: 1
+	ID: 9, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 24.3772, typeWorkers: -1
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+	ID: 8, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 32.3535, typeWorkers: 1
+=======================================================================================
+Итерация 6
+=======================================================================================
+После TimeCorrect
+AllModelTime: 12.2812
+CEC
+	ID: 5, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 12.2812, typeWorkers: 1
+FEC
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 9, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 24.3772, typeWorkers: -1
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 8, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 32.3535, typeWorkers: 1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 5
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 0
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 12.2812
+CEC
+FEC
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+	ID: 9, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 24.3772, typeWorkers: -1
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 8, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 32.3535, typeWorkers: 1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+=======================================================================================
+Итерация 7
+=======================================================================================
+После TimeCorrect
+AllModelTime: 14.3328
+CEC
+	ID: 2, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 14.3328, typeWorkers: -1
+FEC
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 9, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 24.3772, typeWorkers: -1
+	ID: 8, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 32.3535, typeWorkers: 1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 5
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 1
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 14.3328
+CEC
+FEC
+	ID: 10, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 17.3356, typeWorkers: -1
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 8, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 32.3535, typeWorkers: 1
+	ID: 9, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 24.3772, typeWorkers: -1
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 2, TYPE: 2, currentBlock: 3, nextBlock: 4, modelTime: 25.3264, typeWorkers: 2
+=======================================================================================
+Итерация 8
+=======================================================================================
+После TimeCorrect
+AllModelTime: 17.3356
+CEC
+	ID: 10, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 17.3356, typeWorkers: -1
+FEC
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 9, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 24.3772, typeWorkers: -1
+	ID: 8, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 32.3535, typeWorkers: 1
+	ID: 2, TYPE: 2, currentBlock: 3, nextBlock: 4, modelTime: 25.3264, typeWorkers: 2
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+---------------------------------------------------------------------------------------
+Рабочий типа 1 обрабатывает на данный момент: 5
+Очередь у рабочего типа 1 = 0
+Рабочий типа 2 обрабатывает на данный момент: 2
+Очередь у рабочего типа 2 = 0
+После TimeCorrect
+AllModelTime: 17.3356
+CEC
+FEC
+	ID: 7, TYPE: 3, currentBlock: -1, nextBlock: 1, modelTime: 22.8062, typeWorkers: -1
+	ID: 9, TYPE: 1, currentBlock: -1, nextBlock: 1, modelTime: 24.3772, typeWorkers: -1
+	ID: 8, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 32.3535, typeWorkers: 1
+	ID: 2, TYPE: 2, currentBlock: 3, nextBlock: 4, modelTime: 25.3264, typeWorkers: 2
+	ID: 3, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 93.0624, typeWorkers: 1
+	ID: 1, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 52.3566, typeWorkers: 1
+	ID: 6, TYPE: 3, currentBlock: 3, nextBlock: 4, modelTime: 171.347, typeWorkers: 1
+	ID: 4, TYPE: 1, currentBlock: 3, nextBlock: 4, modelTime: 27.6809, typeWorkers: 1
+	ID: 11, TYPE: 2, currentBlock: -1, nextBlock: 1, modelTime: 36.5163, typeWorkers: -1
+	ID: 10, TYPE: 2, currentBlock: 3, nextBlock: 4, modelTime: 99.3908, typeWorkers: 2
+=======================================================================================
+Средняя длина очереди рабочего типа 1 = 0
+Максимальная длина очереди рабочего типа 1 = 0
+Средняя длина очереди рабочего типа 2 = 0
+Максимальная длина очереди рабочего типа 2 = 0
